@@ -44,17 +44,15 @@ class ApplicationState extends ChangeNotifier {
 
  
 
-  // ignore: prefer_final_fields
   bool _enableFreeSwag = defaultValues['enable_free_swag'] as bool;
 
   bool get enableFreeSwag => _enableFreeSwag;
 
-  // ignore: prefer_final_fields
   String _eventDate = defaultValues['event_date'] as String;
 
   String get eventDate => _eventDate;
 
-  // ignore: prefer_final_fields
+ 
   String _callToAction = defaultValues['call_to_action'] as String;
 
   String get callToAction => _callToAction;
