@@ -58,7 +58,7 @@ final _router = GoRouter(
                   }
                   context.pushReplacement('/');
                 })),
-              ],
+              ],    
             );
           },
           routes: [

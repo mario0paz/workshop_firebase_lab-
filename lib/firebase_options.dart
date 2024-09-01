@@ -54,5 +54,5 @@ class DefaultFirebaseOptions {
     appId: '',
     messagingSenderId: '',
     projectId: '',
-  );
-}
+  );   
+}  
